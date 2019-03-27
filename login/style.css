@@ -197,32 +197,29 @@ form {
 		background-size: cover;
 	}
 	.wrapp h3{
+		margin-left: 5px !important;
  		color: #4592a5 !important;
  	}
 	}
 	.wrapp h5{
 		color: black;
-		margin-left: 95px !important;
+		margin-left: -15px !important;
 	}
 	.wrapp h2{
 		color: #4592a5 !important;
-		margin-left: 80px !important;
-	}
-	.lupa{
-		font-size: 12px;
-		margin-left: 272px;
+		margin-left: -15px !important;
 	}
 	.email{
-		margin-left: 60px;
+		margin-left: 10px;
 	}
 	.pswrd{
-		margin-left: 60px;
+		margin-left: 10px;
 	}
 	.btn{
-		margin-left: 40px;
+		margin-left: 5px;
 	}
 	.lupa{
-		margin-left: 290px !important;
+		margin-left: 210px !important;
 	}
 }
 
