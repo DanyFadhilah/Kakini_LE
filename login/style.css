@@ -154,7 +154,7 @@ form {
 	position: relative;	
 	float: left;	
 	width: 100%;
-	margin-top: 20px;
+	margin-top: -5px;
 }
 .login .btn button {
 	width: 380px;
@@ -171,7 +171,22 @@ form {
 	color: #fff;
 	font-family: Comfortaa-Light;
 }
-
+.lupa {
+	margin-left: 235px;
+}
+.lupa a{
+	color: #4592a5;
+	text-decoration: none;
+}
+.belum{
+	margin-top: 60px;
+	margin-left: 73px;
+	color: 	#0009;
+}
+.belum a{
+	color: #4592a5;
+	text-decoration: none;	
+}
 
 @media screen and (max-width:1220px) {
 	.wrap{

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Kakini</title>
+	<title>Beranda | KAKINI</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
 	<link rel="icon" href="./assets/image/icon/KAKINI.png">
@@ -31,7 +31,7 @@
 						<div class="languages">
 							<ul>
 								<li><a href="#">IDN</a>
-									<ul><li><a href="#">ENGLISH</a></li></ul>
+									<ul><li><a href="./english/index.html">ENGLISH</a></li></ul>
 								</li>
 							</ul>
 						</div>
@@ -43,7 +43,44 @@
 							</ul>
 						</div>
 					</ul>
+					<div id="nav-icon1">
+				  		<span></span>
+				  		<span></span>
+				 		<span></span>
+					</div>
+					<div class="menu-toggle">
+						<div class="satu"></div>
+						<div class="dua"></div>
+						<div class="tiga"></div>
+					</div>
 				</div>
+				<ul class="menu-hide">
+						<li>
+							<a href="#">Home</a>
+						</li>
+						
+							
+						<li><a href="./sale men/men.html">MEN /</a>  <a href="./sale women/women.html">WOMEN</a></li>
+						
+						</li>
+						<li><a href="#">Sale</a></li>
+						<li><a href="#">Traditional Clothing</a></li>
+						
+						<li><a href="#">IDN / </a> <a href="#">ENGLISH</a></li>
+								
+						
+						<div class="login">
+						<ul>
+							<li><a href="./login/login.html">Register</a>
+							<ul><li><a href="./register/register.html">Log In</a></li></ul>
+							</li>
+						</ul>
+
+						<li class="search">
+							<input type="search" placeholder="Cari barang">
+						</li>
+					</div>
+				</ul>
 			</div>
 		</nav>
 	</header>
@@ -61,7 +98,7 @@
 					<img class="cover" src="./assets/image/imgWomen/iw18.jpg">
 				</div>
 				<div class="slide">
-					<img class="cover" src="./assets/image/imgPlus/ip8.jpg">
+					<img class="cover" src="./assets/image/imgPlus/ip81.jpg">
 				</div>
 				<div class="slide">
 					<img class="cover" src="./assets/image/imgWomen/iw14.jpg">
@@ -132,7 +169,7 @@
 	<!-- brandsAZ -->
 	<div class="container">
 		<div class="brandsAZ bgWhite">
-			<div class="left1"></div><div id="text5">BRAND A-Z</div><div class="right1"></div>
+			<div class="left5"></div><div id="text5">BRAND A-Z</div><div class="right5"></div>
 			<div class="brandsIMG">
 				<div class="next">
 					<a href="#"><p>SELENGKAPNYA</p></a>
@@ -168,7 +205,7 @@
 	<!-- Mens -->
 	<div class="container">
 		<div class="brandsAZ bgWhite">
-			<div class="left1"></div><div id="text7">PRIA</div><div class="right1"></div>
+			<div class="left3"></div><div id="text7">PRIA</div><div class="right3"></div>
 			<div class="brandsIMG">
 				<div class="next">
 					<a href="./sale_men/men.html"><p>SELENGKAPNYA</p></a>
@@ -204,7 +241,7 @@
 	<!-- trausers -->
 	<div class="container">
 		<div class="brandsAZ bgWhite">
-			<div class="left1"></div><div id="text8">WANITA</div><div class="right1"></div>
+			<div class="left4"></div><div id="text8">WANITA</div><div class="right4"></div>
 			<div class="brandsIMG">
 				<div class="next">
 					<a href="./sale_women/women.html"><p>SELENGKAPNYA</p></a>
@@ -329,4 +366,13 @@
 	<div class="clearfix"></div>
 	</div>
 </body>
+<script src="assets/js/jquery.js"></script>
+	<script>
+		$(document).ready(function(){
+		  $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+		    $(this).toggleClass('open');
+		    $('.menu-hide').toggleClass('menu-hide-active');
+		  });
+		});
+	</script>
 </html>

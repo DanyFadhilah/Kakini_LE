@@ -173,15 +173,28 @@ form {
 #namadepan { 
 	border: 1px solid #CCCCCC; 
 	border-radius: 2px;
-	width: ;
+	width: 158px;
 	height: 30px;
 }
 #namabelakang { 
 	border: 1px solid #CCCCCC; 
 	border-radius: 	2px;
-	width: 200px;
+	width: 158px;
 	height: 30px;
+	margin-left: 200px;
 } 
+#belakang{
+	margin-top: -68px;
+	margin-left: 200px;
+}
+.log{
+	font-size: 11px;
+	width: 380px;
+}
+.log a{
+	text-decoration: none;	
+	color: #4592a5;
+}
 
 
 /*-------------------------------------------------*/

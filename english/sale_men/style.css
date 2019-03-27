@@ -88,6 +88,7 @@ header ul li a:hover {
 	opacity: 0;
 	visibility: hidden;
 	background: #fff;
+	padding: 0 10px;
 }
 .navbar ul li:hover ul {
 	opacity: 1;
@@ -111,7 +112,7 @@ header ul li a:hover {
 	margin-left: 80px;
 	border-radius: 2px;
 	border: none;
-	border: 1px solid whitesmoke;
+	border: 1px solid #4592a5;
 	transition: 0.75s;
 	font-family: Comfortaa-Light;
 	font-size: 13px; 
@@ -190,7 +191,6 @@ header ul li a:hover {
 	color: #0008;
 }
 .login ul li a {
-	font-weight: 900;
 	text-decoration: none;
 	color: #4592a5;
 	display: inline-block;
@@ -212,13 +212,13 @@ header ul li a:hover {
 	float: right;
 	margin-right: 15px !important;
 	margin-top: -45px !important;
-	cursor: pointer;	
 } 
 .kategori {
 	float: left;
 	width: 25%;
-	height: 736px;
-	box-shadow: 0 0 3px;
+	height: 720px;
+	border: 0.5px solid gray;
+	box-shadow: 0 0 2px;
 	border-radius: 3px;
 	border-top: none;
 	border-left: none;
@@ -246,7 +246,7 @@ header ul li a:hover {
 	height: 320px;
 	margin-top: 70px;
 	background: #fff;
-	box-shadow: 0 0 3px;
+	box-shadow: 0 0 2px;
 	margin-right: 15px;
 	margin-left: 50px;
 	border-radius: 2px;
@@ -259,13 +259,15 @@ header ul li a:hover {
 }
 .promo .k1 img {
 	width: 80%;
-	margin-left: 24px;
+	margin: 0;
 	padding: 0;
 	border-radius: 2px;
+	margin-left: 25px;
+	margin-top: 10px;
 }
 .promo .k1 h3 {
 	margin-left: 20px;
-	margin-top: -2px;
+	margin-top: -10px;
 	color: #0009
 }
 .promo .k1 h5 {
@@ -279,7 +281,7 @@ header ul li a:hover {
 	height: 320px;
 	margin-top: 70px;
 	background: #fff;
-	box-shadow: 0 0 3px;
+	box-shadow: 0 0 2px;
 	margin-right: 15px;
 	margin-left: 15px;
 	border-radius: 2px;
@@ -293,13 +295,15 @@ header ul li a:hover {
 }
 .promo .k2 img {
 	width: 80%;
-	margin-left: 24px;
+	margin: 0;
 	padding: 0;
 	border-radius: 2px;
+	margin-left: 25px;
+	margin-top: 10px;
 }
 .promo .k2 h3 {
 	margin-left: 20px;
-	margin-top: -2px;
+	margin-top: -10px;
 	color: #0009
 }
 .promo .k2 h5 {
@@ -313,7 +317,7 @@ header ul li a:hover {
 	height: 320px;
 	margin-top: 70px;
 	background: #fff;
-	box-shadow: 0 0 3px;
+	box-shadow: 0 0 2px;
 	margin-right: 15px;
 	margin-left: 15px;
 	border-radius: 2px;
@@ -327,13 +331,15 @@ header ul li a:hover {
 }
 .promo .k3 img {
 	width: 80%;
-	margin-left: 24px;
+	margin: 0;
 	padding: 0;
 	border-radius: 2px;
+	margin-left: 25px;
+	margin-top: 10px;
 }
 .promo .k3 h3 {
 	margin-left: 20px;
-	margin-top: -2px;
+	margin-top: -10px;
 	color: #0009
 }
 .promo .k3 h5 {
@@ -347,7 +353,7 @@ header ul li a:hover {
 	height: 320px;
 	margin-top: 70px;
 	background: #fff;
-	box-shadow: 0 0 3px;
+	box-shadow: 0 0 2px;
 	margin-right: 15px;
 	margin-left: 50px;
 	border-radius: 2px;
@@ -361,13 +367,15 @@ header ul li a:hover {
 }
 .promo .k4 img {
 	width: 80%;
-	margin-left: 24px;
+	margin: 0;
 	padding: 0;
 	border-radius: 2px;
+	margin-left: 25px;
+	margin-top: 10px;
 }
 .promo .k4 h3 {
 	margin-left: 20px;
-	margin-top: -2px;
+	margin-top: -10px;
 	color: #0009
 }
 .promo .k4 h5 {
@@ -381,7 +389,7 @@ header ul li a:hover {
 	height: 320px;
 	margin-top: 70px;
 	background: #fff;
-	box-shadow: 0 0 3px;
+	box-shadow: 0 0 2px;
 	margin-right: 15px;
 	margin-left: 15px;
 	border-radius: 2px;
@@ -395,13 +403,15 @@ header ul li a:hover {
 }
 .promo .k5 img {
 	width: 80%;
-	margin-left: 24px;
+	margin: 0;
 	padding: 0;
 	border-radius: 2px;
+	margin-top: 10px;
+	margin-left: 25px;
 }
 .promo .k5 h3 {
 	margin-left: 20px;
-	margin-top: -2px;
+	margin-top: -10px;
 	color: #0009
 }
 .promo .k5 h5 {
@@ -415,7 +425,7 @@ header ul li a:hover {
 	height: 320px;
 	margin-top: 70px;
 	background: #fff;
-	box-shadow: 0 0 3px;
+	box-shadow: 0 0 2px;
 	margin-right: 15px;
 	margin-left: 15px;
 	border-radius: 2px;
@@ -429,13 +439,15 @@ header ul li a:hover {
 }
 .promo .k6 img {
 	width: 80%;
-	margin-left: 24px;
+	margin: 0;
 	padding: 0;
 	border-radius: 2px;
+	margin-top: 	10px;
+	margin-left: 25px;
 }
 .promo .k6 h3 {
 	margin-left: 20px;
-	margin-top: -2px;
+	margin-top: -10px;
 	color: #0009
 }
 .promo .k6 h5 {
@@ -449,7 +461,7 @@ header ul li a:hover {
 	height: 320px;
 	margin-top: 70px;
 	background: #fff;
-	box-shadow: 0 0 3px;
+	box-shadow: 0 0 2px;
 	margin-right: 15px;
 	margin-left: 50px;
 	border-radius: 2px;
@@ -463,13 +475,15 @@ header ul li a:hover {
 }
 .promo .k7 img {
 	width: 80%;
-	margin-left: 24px;
+	margin: 0;
 	padding: 0;
 	border-radius: 2px;
+	margin-top: 10px;
+	margin-left: 25px;
 }
 .promo .k7 h3 {
 	margin-left: 20px;
-	margin-top: -2px;
+	margin-top: -10px;
 	color: #0009
 }
 .promo .k7 h5 {
@@ -483,7 +497,7 @@ header ul li a:hover {
 	height: 320px;
 	margin-top: 70px;
 	background: #fff;
-	box-shadow: 0 0 3px;
+	box-shadow: 0 0 2px;
 	margin-right: 15px;
 	margin-left: 15px;
 	border-radius: 2px;
@@ -497,13 +511,15 @@ header ul li a:hover {
 }
 .promo .k8 img {
 	width: 80%;
-	margin-left: 24px;
+	margin: 0;
 	padding: 0;
 	border-radius: 2px;
+	margin-top: 10px;
+	margin-left: 25px;
 }
 .promo .k8 h3 {
 	margin-left: 20px;
-	margin-top: -2px;
+	margin-top: -10px;
 	color: #0009
 }
 .promo .k8 h5 {
@@ -517,7 +533,7 @@ header ul li a:hover {
 	height: 320px;
 	margin-top: 70px;
 	background: #fff;
-	box-shadow: 0 0 3px;
+	box-shadow: 0 0 2px;
 	margin-right: 15px;
 	margin-left: 15px;
 	border-radius: 2px;
@@ -531,13 +547,15 @@ header ul li a:hover {
 }
 .promo .k9 img {
 	width: 80%;
-	margin-left: 24px;
+	margin: 0;
 	padding: 0;
 	border-radius: 2px;
+	margin-top: 	10px;
+	margin-left: 25px;
 }
 .promo .k9 h3 {
 	margin-left: 20px;
-	margin-top: -2px;
+	margin-top: -10px;
 	color: #0009
 }
 .promo .k9 h5 {
@@ -730,4 +748,360 @@ header ul li a:hover {
 	color: #4592a5;
 	cursor: pointer;
 	font-family: Comfortaa-Light;
+}
+@media screen and (max-width:980px) {
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	header {
+		box-shadow: 0 0 2px gray;
+		z-index: +100;
+	}
+	.container {
+		max-width: 850px;
+		margin: 0 auto;
+	}
+	header ul {
+		max-width: 850px;
+	}
+	header ul li {
+		padding: 0;
+		transition: 0.5s;
+	}
+	header ul li a {
+		padding: 0 5px;
+	}
+	.navbar ul li {
+		transition: 0.5s;
+	}
+	.navbar ul li a {
+		font-family: Roboto-Light;
+		display: block;
+		font-size: 1em;
+	}
+	.navbar ul li ul {
+		font-family: Roboto-Light;
+		padding: 0 10px;
+	}
+	.logo {
+		position: relative;
+		margin: 0 70px;
+	}
+	.search {
+		height: 50px;
+		width: 150px;
+	}
+	.search input {
+		height: 40px;
+		width: 150px;
+		margin-left: 0;
+		font-size: 12px; 
+		padding-left: 10px;
+	}
+	.search input:hover {
+		font-size: 12px;
+		padding-left: 10px;
+	}
+	.languages {
+		margin-left: 8px;
+	}
+	.kategori{
+		box-shadow: 0 0 1px;
+	}
+	.promo .k1 {
+		margin-left: 100px;
+		border-radius: 3px;
+		box-shadow: 0 0 2px;
+	}
+	.promo .k1 img {
+		border-radius: 3px;
+	}
+	.promo .k2 {
+		border-radius: 3px;
+		box-shadow: 0 0 2px;
+	}
+	.promo .k2 img {
+		border-radius: 3px;
+	}
+	.promo .k3 {
+		margin-top: 20px;
+		box-shadow: 0 0 2px;
+		margin-left: 100px;
+		border-radius: 2px;
+	}
+	.promo .k4 {
+		margin-top: 20px;
+		box-shadow: 0 0 2px;
+		margin-left: 15px;
+		border-radius: 3px;
+		margin-top: 20px;
+	}
+	.promo .k5 {
+		margin-top: 20px;
+		box-shadow: 0 0 2px;
+		margin-left: 100px;
+		border-radius: 3px;
+	}
+	.promo .k6 {
+		margin-top: 20px;
+		box-shadow: 0 0 2px;
+		margin-left: 15px;
+		border-radius: 3px;
+	}
+	.promo .k7 {
+		box-shadow: 0 0 2px;
+		margin-left: 100px;
+		border-radius: 3px;
+		margin-top: 20px;
+	}
+	.promo .k8 {
+		box-shadow: 0 0 2px;
+		margin-left: 15px;
+		border-radius: 2px;
+		margin-top: 20px;
+	}
+	.promo .k9 {
+		box-shadow: 0 0 2px;
+		margin-left: 335px;
+		border-radius: 3px;
+		margin-top: 20px;
+	}
+	.readmore.bgWhite div.left1 {
+		width: 340px;
+	}
+	.readmore.bgWhite div.right1 {
+		width: 340px;
+		height: 2px;
+	}
+	.readmore.bgWhite #text3 {
+		margin-left: 25px;
+	}
+	.product h3 {
+		font-size: 13px;
+	}
+	.product h3 a {
+		cursor: pointer;
+	}
+	.brands {
+		position: absolute;
+		float: left;
+		margin-top: 100px;
+		margin-left: 140px;
+	}
+	.brands h3 {
+		font-size: 13px;
+	}
+	.brands h3 a {
+		cursor: pointer;
+	}
+	.support {
+		position: absolute;
+		float: left;
+		margin-top: 100px;
+		margin-left: 250px;
+	}
+	.support h3 {
+		font-size: 13px;
+	}
+	.support h3 a {
+		cursor: pointer;
+	}
+	.featured h3 {
+		font-size: 13px;
+	}
+	.featured h3 a {
+		cursor: pointer;
+	}
+	.message {
+		margin-top: 40px;
+	}
+	.message h3 {
+		font-size: 13px;
+	}
+	.message h3 a {
+		cursor: pointer;
+	}
+	.message input {
+		font-family: Comfortaa-Light;
+	}
+	.mens button:hover {
+		background: #4592a5;
+		border: none;
+		transition: 0.75s;
+		color: #fff;
+	}
+}
+@media screen and (max-width: 1020px) {
+	header {
+		box-shadow: 0 0 2px gray;
+	}
+	.container {
+		max-width: 900px;
+		margin: 0 auto;
+	}
+	header ul {
+		max-width: 900px;
+	}
+	header ul li a {
+		padding: 0 5px;
+	}
+	.logo {
+		position: relative;
+		margin: 0 70px;
+	}
+	.search input {
+		margin-left: 0;
+		border-radius: 2px;
+	}
+	.languages {
+		margin-left: 10px;
+	}
+	.txt {
+		width: 100%;
+		height: 30px;
+		margin-top: 100px;
+	}
+	.kategori {
+		box-shadow: 0 0 2px;
+		margin-right: 70px;
+		height: 720px;
+	}
+	.promo .k1 {
+		border-radius: 2px;
+		box-shadow: 0 0 2px;
+		margin-left: 10px;
+	}
+	.promo .k2 {
+		box-shadow: 0 0 2px;
+		margin-left: 30px;
+		border-radius: 3px;
+	}
+	.promo .k2 img {
+		border-radius: 3px;
+	}
+	.promo .k3 {
+		margin-top: 30px;
+		box-shadow: 0 0 2px;
+		margin-left: 50px !important;
+		border-radius: 3px;
+	}	
+	.promo .k3 img {
+		border-radius: 3px;
+	}
+	.promo .k4 {
+		margin-top: 40px;
+		box-shadow: 0 0 2px;
+		margin-left: 40px  !important;
+		border-radius: 3px;
+	}
+	.promo .k4 img {
+		border-radius: 3px;
+	}
+	.promo .k5 {
+		margin-top: 40px ;
+		box-shadow: 0 0 2px;
+		margin-left: 50px !important;
+		border-radius: 3px;
+	}
+	.promo .k5 img {
+		border-radius: 3px;
+	}
+	.promo .k6 {
+		margin-top: 40px;
+		box-shadow: 0 0 2px;
+		margin-left: 30px;
+		border-radius: 3px;
+	}
+	.promo .k6 img {
+		border-radius: 3px;
+	}
+	.promo .k7 {
+		display: none;
+	}
+	.promo .k8 {
+		display: none;
+	}
+	.promo .k9 {
+		display: none;
+	}
+	.readmore {
+		width: 100%;
+		height: 400px;
+		float: left;
+	}
+	.readmore.bgWhite div.left1 {
+		width: 340px;
+	}
+	.readmore.bgWhite div.right1 {
+		width: 340px;
+	}
+	.readmore.bgWhite #text3 {
+		margin-left: 50px;
+	}
+	.product h3 {
+		font-size: 13px;
+	}
+	.product h3 a {
+		cursor: pointer;
+	}
+	.brands {
+		margin-left: 150px;
+	}
+	.brands h3 {
+		font-size: 13px;
+	}
+	.brands h3 a {
+		cursor: pointer;
+	}
+	.support {
+		margin-left: 270px;
+	}
+	.support h3 {
+		font-size: 13px;
+	}
+	.support h3 a {
+		cursor: pointer;
+	}
+	.featured h3 {
+		font-size: 13px;
+	}
+	.featured h3 a {
+		cursor: pointer;
+	}
+}
+@media screen and (max-width: 1440px) {
+	.promo .k1 {
+		margin-left: 50px;
+	}
+	.promo .k2 {
+		margin-left: 40px;
+	}
+	.promo .k3 {
+		margin-left: 40px;
+	}	
+	.promo .k4 {
+		margin-left: 50px;
+		margin-top: 30px;
+	}
+	.promo .k5 {
+		margin-top: 30px;
+		margin-left: 40px;
+	}
+	.promo .k6 {
+		margin-top: 30px;
+		margin-left: 40px;
+	}
+	.promo .k7 {
+		margin-top: 40px;
+		margin-left: 50px;
+	}
+	.promo .k8 {
+		margin-top: 40px;
+		margin-left: 40px;
+	}
+	.promo .k9 {
+		margin-left: 40px;
+		margin-top: 40px;
+	}	
 }
