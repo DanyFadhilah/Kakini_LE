@@ -3022,6 +3022,7 @@ input[name="r"] {
 	margin-left: 55px !important;
 	margin-top: -400px;
 }
+
 	#nav-icon1{
 		display: block;
 		margin-top: -88px;
@@ -3235,7 +3236,9 @@ input[name="r"] {
 		margin-top: 10px;		
 		float: left;	
 	}	
-	
+	.navigasi{
+		bottom: 20px;
+	}
 }
 
 
