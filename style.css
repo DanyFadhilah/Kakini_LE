@@ -1469,7 +1469,10 @@ input[name="r"] {
 	cursor: pointer;
 	font-family: Comfortaa-Light;
 }
-@media screen and (max-width:1020px) {	
+@media screen and (max-width:1020px) {
+	.atas{
+		margin-top: 100px;
+	}	
 	header{
 		width: 100%;
 	}
@@ -2485,6 +2488,9 @@ input[name="r"] {
 		cursor: pointer;
 		font-family: Comfortaa-Light;
 	}
+	.atas{
+		margin-top: 100px;
+	}
 }
 
 @media screen and (max-width: 550px){
@@ -2975,6 +2981,9 @@ input[name="r"] {
 		width: 100%;
 		margin-top: 10px;		
 		margin-right: 0;	
+	}
+	.atas{
+		margin-top: 100px;
 	}		
 }		
 
@@ -3147,7 +3156,7 @@ input[name="r"] {
 		margin-left: 10px;
 	}
 	.next{
-		font-size: 8px;
+		font-size: 10px;
 	}
 	.like{
 		width: 20px !important;
@@ -3240,7 +3249,7 @@ input[name="r"] {
 		bottom: 20px;
 	}
 	.atas{
-		margin-top: 200px;
+		margin-top: 250px;
 	}
 }
 
