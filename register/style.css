@@ -1,0 +1,303 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+@font-face{
+	font-family: OSWALD;
+	src: url(../assets/font/OSWALD.otf);
+}
+@font-face{
+	font-family: Comfortaa-Light;
+	src: url(../assets/font/Comfortaa-Light.ttf);
+}
+@font-face{
+	font-family: Roboto-Thin;
+	src: url(../assets/font/roboto/Roboto-Thin.ttf);
+}
+@font-face{
+	font-family: Roboto-ThinItalic;
+	src: url(../assets/font/roboto/Roboto-ThinItalic.ttf);
+}
+@font-face{
+	font-family: Roboto-Italic;
+	src: url(../assets/font/roboto/Roboto-Italic.ttf);
+}
+@font-face{
+	font-family: Roboto-Light;
+	src: url(../assets/font/roboto/Roboto-Light.ttf);
+}
+form {
+	overflow: hidden;
+}
+.container {
+	max-width: 500px;
+	margin: 0 auto;
+}
+.wrap {
+	position: absolute;
+	float: left;
+	width: 100vw;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../assets/image/imgWomen/iw14.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Comfortaa-Light;
+	overflow: hidden;
+	z-index: -1;
+}
+.wrapp {
+	float: right;
+	width: 680px;
+	height: 100vh;
+	background: whitesmoke;
+	border: none;
+	font-family: Comfortaa-Light;
+	overflow: hidden;
+}
+.wrapp h2 {
+	margin-top: 40px;
+	text-align: center;
+	color: #4592a6;
+}
+.wrapp h5 {
+	top: 0;
+	text-align: center;
+	color: #0008;
+	margin-top: -10px;
+}
+.login {
+	width: 100%;
+	height: 100%;
+	margin-top: 40px;
+	margin-left: 65px;
+}
+.login h3 {
+	font-size: 1em;
+	width: 150px;
+	margin-right: 0;
+}
+.login input {
+	width: 150px;
+	height: 30px;
+	cursor: pointer;
+	transition: 0.75s;
+	border: none;
+	font-family: Comfortaa-Light;
+	color: #0009;
+	padding-left: 20px;
+}
+.login input:hover {
+	border: none;
+	color: #0009;
+	padding-left: 5px;
+	transition: 0.75s;
+	font-size: 13px; 
+	padding-left: 20px;
+	font-family: Comfortaa-Light;
+}
+.login input::-webkit-input-placeholder {
+	position: relative;
+	font-size: 13px;
+	color: #0009;
+	padding-left: 10px;
+	border: none;
+}
+.login input:hover::-webkit-input-placeholder {
+	border: none;
+	transition: 0.5s;
+	padding-left: 30px;
+	font-family: Comfortaa-Light;
+	color: #0009;
+}
+.login .email {
+	margin-top: 5px;
+}
+.login .email input {
+	width: 71.5%;
+	height: 30px;
+	border: 1px solid #CCCCCC;
+}
+.login .pswrd {
+	margin-top: 5px;
+}
+.login .pswrd input {
+	width: 71.5%;
+	height: 30px;
+	border: 1px solid #CCCCCC;
+	border-radius: 	2px;
+}
+.login .kpswrd {
+	margin-top: 10px;
+}
+.login .kpswrd input {
+	width: 71.5%;
+	height: 30px;
+	border: 1px solid #CCCCCC;
+	border-radius: 	2px;
+}
+.login .btn {
+	position: relative;	
+	float: left;	
+	width: 100%;
+	height: 35px;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+.login .btn button {
+	width: 380px;
+	height: 35px;
+	border-radius: 2px;
+	background: #2e7d9c;
+	border: none;	
+	cursor: pointer;
+	}
+.login .btn button:hover {
+	background: #1a7d90;
+}
+.login .btn button a {
+	text-decoration: none;
+	color: #fff;
+	font-family: Comfortaa-Light;
+	font-size: 15px;
+}
+.txt {
+	font-size: 30px;
+	margin-top: 190px;
+	margin-left: 50px;
+	width: 78%;
+}
+.txt p {
+	width: 60%;
+	color: #CCCCCC;
+}
+#namadepan { 
+	border: 1px solid #CCCCCC; 
+	border-radius: 2px;
+	width: ;
+	height: 30px;
+}
+#namabelakang { 
+	border: 1px solid #CCCCCC; 
+	border-radius: 	2px;
+	width: 200px;
+	height: 30px;
+} 
+
+
+/*-------------------------------------------------*/
+
+@media screen and (max-width: 1220px) {
+	.txt{
+		width: 70%;
+	}
+}
+/*--------------------------------------------------*/
+ @media screen and (max-width: 980px) {
+ 	.wrap {
+	position: absolute;
+	float: left;
+	width: 100vw;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../assets/image/imgWomen/pants.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	z-index: -1;
+	background-position: left;
+	}
+	.wrapp {
+
+	}
+}	
+
+/*--------------------------------------------------*/
+ @media screen and (max-width: 768px) {
+ 	.wrap{
+ 		display: none;
+ 	}
+ 	.wrapp{
+ 		width: 100%;
+ 		background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../assets/image/imgWomen/baju.jpg);
+ 		background-repeat: no-repeat;
+ 		background-position: center;
+ 		background-size: cover;
+ 	}
+ 	.wrapp h5{
+ 		color: white;
+ 	}
+ 	.login, .lgkiri, .lgkanan, .email, .pswrd, .kpswrd, .btn h3 {
+ 		color: white;
+ 	}
+
+}	
+
+/*--------------------------------------------------*/
+ @media screen and (max-width: 550px) {
+ 	 	.wrapp{
+ 		width: 100%;
+ 		background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../assets/image/imgWomen/clothes.jpeg);
+ 		background-repeat: no-repeat;
+ 		background-position: center;
+ 		background-size: cover;
+ 	}
+ 	.login, .lgkiri, .lgkanan, .email, .pswrd, .kpswrd, .btn h3 {
+ 		color: white;
+ 	}
+}	
+
+/*--------------------------------------------------*/
+ @media screen and (max-width: 360px) {
+ .wrapp h2{
+ 	color: white;
+ }
+ .wrapp{
+ 	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../assets/image/imgWomen/images.jpeg);
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ 	background-size: cover;
+ }
+ .login {
+ 		margin-left: 10px;
+ 	}
+
+.login .email input {
+	width: 88%;
+	height: 30px;
+	border: 1px solid #CCCCCC;
+}
+.login .pswrd input {
+	width: 88%;
+	height: 30px;
+	border: 1px solid #CCCCCC;
+}
+.login .kpswrd input {
+	width: 88%;
+	height: 30px;
+	border: 1px solid #CCCCCC;
+
+}
+.login .btn button {
+	width: 342px;
+	height: 50px;
+	border-radius: 2px;
+	background: #2e7d9c;
+	border: none;	
+	cursor: pointer;
+	}
+
+#namadepan { 
+	border: 1px solid #CCCCCC; 
+	width: 300px;
+	height: 30px;
+}
+#namabelakang { 
+	border: 1px solid #CCCCCC; 
+	width: 88%;
+	height: 30px;
+} 
+}	
+
+
+
+
+
