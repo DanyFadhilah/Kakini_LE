@@ -254,20 +254,27 @@ form {
  		background-size: cover;
  	}
  	.login, .lgkiri, .lgkanan, .email, .pswrd, .kpswrd, .btn h3 {
- 		color: white;
+ 		color: #4592a5;
+ 	}
+ 	.wrapp h5{
+ 		color: black
  	}
 }	
 
 /*--------------------------------------------------*/
  @media screen and (max-width: 360px) {
  .wrapp h2{
- 	color: white;
+ 	color: #4592a5;
+ }
+ .wrapp h3{
+ 	color: #4592a5;
+ }
+ .wrapp h5{
+ 	color: black;
  }
  .wrapp{
- 	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../assets/image/imgWomen/images.jpeg);
- 	background-repeat: no-repeat;
- 	background-position: center;
- 	background-size: cover;
+ 	clear: both;
+ 	background: whitesmoke !important;
  }
  .login {
  		margin-left: 10px;
@@ -300,13 +307,14 @@ form {
 
 #namadepan { 
 	border: 1px solid #CCCCCC; 
-	width: 300px;
+	width: 135px;
 	height: 30px;
 }
 #namabelakang { 
 	border: 1px solid #CCCCCC; 
-	width: 88%;
+	width: 135px;
 	height: 30px;
+	margin-left: 180px;
 } 
 }	
 
