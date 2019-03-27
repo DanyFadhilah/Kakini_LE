@@ -188,21 +188,41 @@ form {
 	text-decoration: none;	
 }
 
-@media screen and (max-width:1220px) {
+@media screen and (max-width:1020px) {
 	.wrap{
 		width: 50%;
+		padding-left: -10px;
 		background-position: left;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-	.wrapp h2{
-		padding-left: 50px; 
+	.wrapp h3{
+ 		color: #4592a5 !important;
+ 	}
 	}
 	.wrapp h5{
-		padding-left: 50px; 
+		color: black;
+		margin-left: 95px !important;
 	}
-	.login{
+	.wrapp h2{
+		color: #4592a5 !important;
+		margin-left: 80px !important;
+	}
+	.lupa{
+		font-size: 12px;
+		margin-left: 272px;
+	}
+	.email{
+		margin-left: 60px;
+	}
+	.pswrd{
+		margin-left: 60px;
+	}
+	.btn{
 		margin-left: 40px;
+	}
+	.lupa{
+		margin-left: 290px !important;
 	}
 }
 
@@ -244,11 +264,39 @@ form {
  		color: white;
  		
  	}
+ 	.wrapp h3{
+ 		color: #4592a5 !important;
+ 	}
+	}
+	.wrapp h5{
+		color: black;
+		margin-left: -95px;
+	}
+	.wrapp h2{
+		color: #4592a5 !important;
+		margin-left: -80px;
+	}
+	.lupa{
+		font-size: 12px;
+		margin-left: 272px;
+	}
 }
 
 @media screen and (max-width: 550px) {
-	.wrapp{
-
+	.wrapp h3{
+		color: #4592a5 !important;
+	}
+	.wrapp h5{
+		color: black;
+		margin-left: -95px;
+	}
+	.wrapp h2{
+		color: #4592a5 !important;
+		margin-left: -80px;
+	}
+	.lupa{
+		font-size: 12px;
+		margin-left: 272px;
 	}
 }
 
@@ -258,9 +306,22 @@ form {
 		width: 100%;
 		background-image: none;
 	}
+	.wrapp h2{
+		margin-left: -80px;
+		color: #4592a5 !important;
+	}
+	.wrapp h3{
+		color: #4592a5 !important;
+	}
 	.wrapp h5{
 		width: 100%;
-		padding-left: 75px;
+		font-size: 15px;
+		margin-left: -65px;
+		color: black;
+	}
+	.lupa{
+		margin-left: 210px;
+		font-size: 12px;
 	}
 	.login{
 		margin-left: 1px;
