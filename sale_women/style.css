@@ -1706,9 +1706,10 @@ header ul li a:hover {
 	margin-left: -6px !important;
 	font-family: Comfortaa-Light;
 	font-weight: 1000;
-}
+	}
 }
 
+@media screen and (max-width: 360px){
 .container {
 		max-width: 350px;
 		margin: 0;
@@ -1914,9 +1915,11 @@ header ul li a:hover {
 	color: #0009;
 	font-size: 1.3em;
 	margin-top: 35px;
-	margin-left: 3px !important;
+	margin-left: -4px !important;
 	font-family: Comfortaa-Light;
 	font-weight: 1000;
 }
 .txt{
 	margin-bottom: 50px;
+}
+}
