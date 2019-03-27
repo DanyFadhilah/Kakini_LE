@@ -1080,6 +1080,9 @@ header ul li a:hover {
 
 
 @media screen and (min-width:360px) and (max-width: 549px) {
+	.bawah{
+		margin-bottom: 150px;
+	}
 		.container{
 		max-width: 350px;
 		clear: both;
