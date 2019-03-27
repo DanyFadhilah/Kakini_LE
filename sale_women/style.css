@@ -1922,4 +1922,41 @@ header ul li a:hover {
 .txt{
 	margin-bottom: 50px;
 }
+.search {
+	height: 50px;
+	width: 200px;
+}
+.search input {
+	height: 40px;
+	width: 330px;
+	margin-top: 5px;
+	margin-left: -98px;
+	border-radius: 2px;
+	border: none;
+	border: 1px solid #4592a5;
+	transition: 0.75s;
+	font-family: Comfortaa-Light;
+	font-size: 13px; 
+	padding-left: 10px;
+}
+.search input:hover {
+	color: #0009;
+	padding-left: 5px;
+	transition: 0.75s;
+	font-size: 13px; 
+	padding-left: 20px;
+	font-family: Comfortaa-Light;
+}
+.search input::-webkit-input-placeholder {
+	position: relative;
+	font-size: 15px;
+	color: #0009;
+	padding-left: 10px;
+}
+.search input:hover::-webkit-input-placeholder {
+	transition: 0.5s;
+	padding-left: 30px;
+	font-family: Comfortaa-Light;
+	color: #0009;
+}
 }
