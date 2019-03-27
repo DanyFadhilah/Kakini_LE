@@ -13,7 +13,7 @@
 			<div class="container">
 				<div class="navbar">
 					<ul>
-						<li><a href="../index.html">Beranda</a></li>
+						<li><a href="#">Beranda</a></li>
 						<li><a href="#">Koleksi</a>
 							<ul>
 								<li><a class="stu" href="../sale_men/men.html">PRIA</a></li>
@@ -31,7 +31,7 @@
 						<div class="languages">
 							<ul>
 								<li><a href="#">IDN</a>
-									<ul><li><a href="#">ENGLISH</a></li></ul>
+									<ul><li><a href="../english/index.html">ENGLISH</a></li></ul>
 								</li>
 							</ul>
 						</div>
@@ -43,7 +43,44 @@
 							</ul>
 						</div>
 					</ul>
+					<div id="nav-icon1">
+				  		<span></span>
+				  		<span></span>
+				 		<span></span>
+					</div>
+					<div class="menu-toggle">
+						<div class="satu"></div>
+						<div class="dua"></div>
+						<div class="tiga"></div>
+					</div>
 				</div>
+				<ul class="menu-hide">
+						<li>
+							<a href="#">Home</a>
+						</li>
+						
+							
+						<li><a href="../sale_men/men.html">MEN /</a><a href="../sale_women/women.html">WOMEN</a></li>
+						
+						</li>
+						<li><a href="#">Sale</a></li>
+						<li><a href="#">Traditional Clothing</a></li>
+						
+						<li><a href="#">IDN / </a> <a href="#">ENGLISH</a></li>
+								
+						
+						<div class="login">
+						<ul>
+							<li><a href="../login/login.html">Register</a>
+							<ul><li><a href="../register/register.html">Log In</a></li></ul>
+							</li>
+						</ul>
+
+						<li class="search">
+							<input type="search" placeholder="Cari barang">
+						</li>
+					</div>
+				</ul>
 			</div>
 		</nav>
 	</header>
@@ -173,10 +210,20 @@
 				<div class="mens">
 					<button><a href="#">Kirim Pesan</a></button>
 				</div>
+				<div class="bawah"></div>
 			</form>
 		</div>
 	</div>
 	<div class="clearfix"></div>
 	</div>
 </body>
+<script src="../assets/js/jquery.js"></script>
+<script>
+		$(document).ready(function(){
+		  $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+		    $(this).toggleClass('open');
+		    $('.menu-hide').toggleClass('menu-hide-active');
+		  });
+		});
+	</script>
 </html>
