@@ -2979,9 +2979,61 @@ input[name="r"] {
 }		
 
 @media screen and (max-width: 360px){
+	.search {
+	height: 50px;
+	width: 200px;
+	margin-left: 100px;
+}
+.search input {
+	height: 40px;
+	width: 340px;
+	margin-top: 5px;
+	margin-left: 100px;
+	border-radius: 2px;
+	border: none;
+	border: 1px solid whitesmoke;
+	transition: 0.75s;
+	font-family: Comfortaa-Light;
+	font-size: 13px; 
+	padding-left: 10px;
+}
+.search input:hover {
+	color: #0009;
+	padding-left: 5px;
+	transition: 0.75s;
+	font-size: 13px; 
+	padding-left: 20px;
+	font-family: Comfortaa-Light;
+}
+.search input::-webkit-input-placeholder {
+	position: relative;
+	font-size: 15px;
+	color: #0009;
+	padding-left: 10px;
+}
+.search input:hover::-webkit-input-placeholder {
+	transition: 0.5s;
+	padding-left: 30px;
+	font-family: Comfortaa-Light;
+	color: #0009;
+}
+
+.textdisk{
+	margin-left: 55px !important;
+}
+	#nav-icon1{
+		display: block;
+		margin-top: -88px;
+		margin-right: 20px;
+	}
+
 	.banner .diskWhite{
 		margin-left: -4%;
 		margin-top: -330px;	
+	}
+
+	.container{
+		max-width: 350px;
 	}
 
 	.left1{
@@ -2995,6 +3047,194 @@ input[name="r"] {
 	.item{
 		height: 150px !important;
 	}
+	.logo img{
+		margin-left: -70px;
+	}
+	.brandsIMG .k1 {
+	float: left;
+	width: 145px;
+	height: 200px;
+	margin-top: 61px;
+	background: #fff;
+	box-shadow: 0 0 2px;
+	border-radius: 2px;
+	font-family: Comfortaa-Light;
+	margin-left: 25px;
+	}
+	.brandsIMG .k1 img{
+		margin-left: 20px;
+	}
+	.brandsIMG .k1 h3{
+		margin-top: 40px;
+		font-size: 15px;	
+		margin-left: 10px;
+	}
+	.brandsIMG .k1 h5{
+		font-size: 10px;
+		margin-left: 10px;
+	}
+	.brandsIMG .k2 {
+	float: left;
+	width: 145px;
+	height: 200px;
+	margin-top: 24px !important;
+	background: #fff;
+	box-shadow: 0 0 2px;
+	border-radius: 2px;
+	font-family: Comfortaa-Light;
+	margin-left: 5px;
+	}
+	.brandsIMG .k2 img{
+		margin-left: 20px;
+	}
+	.brandsIMG .k2 h3{
+		margin-top: 20px;
+		font-size: 15px !important;	
+		margin-left: 10px;
+	}
+	.brandsIMG .k2 h5{
+		font-size: 10px;
+		margin-left: 10px;
+	}
+	.brandsIMG .k3 {
+	float: left;
+	width: 145px;
+	height: 200px;
+	margin-top: 15px;
+	background: #fff;
+	box-shadow: 0 0 2px;
+	margin-right: 15px;
+	border-radius: 2px;
+	font-family: Comfortaa-Light;
+	margin-left: 25px;
+	}
+	.brandsIMG .k3 img{
+		margin-left: 20px;
+	}
+	.brandsIMG .k3 h3{
+		margin-top: 20px;
+		margin-left: 10px;
+		font-size: 15px !important;	
+	}
+	.brandsIMG .k3 h5{
+		font-size: 10px;
+		margin-left: 10px;
+	}
+	.brandsIMG .k4 {
+	float: left;
+	width: 145px;
+	height: 200px;
+	margin-top: 15px;
+	background: #fff;
+	box-shadow: 0 0 2px;
+	margin-right: 15px;
+	border-radius: 2px;
+	font-family: Comfortaa-Light;
+	margin-left: 5px;
+	}
+	.brandsIMG .k4 img{
+		margin-left: 20px;
+	}
+	.brandsIMG .k4 h3{
+		margin-top: 30px;
+		font-size: 15px !important;	
+		margin-left: 10px;
+	}
+	.brandsIMG .k4 h5{
+		font-size: 10px;
+		margin-left: 10px;
+	}
+	.next{
+		font-size: 8px;
+	}
+	.like{
+		width: 20px !important;
+		margin-top: -35px !important;
+	}
+	.brandsAZ{
+		margin-top: 80px;
+	}
+	.brandsAZ.bgWhite div#text4{
+		margin-left: 2px !important;
+	}
+	.brandsAZ.bgWhite div#text5{
+		margin-left: 20px !important;
+	}
+	.brandsAZ.bgWhite div#text9{
+		margin-top: 30px;
+	}
+	.brandsAZ.bgWhite div#text8{
+		margin-left: 8px;
+	}
+	.brandsAZ.bgWhite div.left1{
+		width: 70px !important;
+	}
+	.brandsAZ.bgWhite div.right1{
+		width: 70px !important;
+	}
+	.brandsAZ.bgWhite div.left2{
+		width: 100px !important;
+	}
+	.brandsAZ.bgWhite div.right2{
+		width: 100px !important;
+	}
+	.brandsAZ.bgWhite div.left3{
+		width: 135px !important;
+	}
+	.brandsAZ.bgWhite div.right3{
+		width: 135px !important;
+	}
+	.brandsAZ.bgWhite div.left4{
+		width: 130px !important;
+	}
+	.brandsAZ.bgWhite div.right4{
+		width: 130px !important;
+	}
+	.brandsAZ.bgWhite div.left5{
+		width: 105px !important;
+	}
+	.brandsAZ.bgWhite div.right5{
+		width: 105px !important;
+	}
+	.readmore {
+	margin-top: 
+	width: 100%;
+	height: 40px;
+	float: left;
+	margin-left: 15px !important;
+}
+.readmore.bgWhite div.left1 {
+	float: left;
+	position: relative;
+	width: 90px !important;
+	height: 2px;
+	background: #0009;
+	margin-top: 50px;
+}
+.readmore.bgWhite div.right1 {
+	float: right;
+	position: relative;
+	width: 90px !important;
+	height: 2px;
+	background: #0009;
+	margin-top: 50px;
+}
+.readmore.bgWhite #text3 {
+	position: relative;
+	float: left;
+	color: #0009;
+	font-size: 1.3em;
+	margin-top: 35px;
+	margin-left: -6px !important;
+	font-family: Comfortaa-Light;
+	font-weight: 1000;
+}
+	.message{
+		width: 95%;
+		margin-top: 10px;		
+		float: left;	
+	}	
+	
 }
 
 
