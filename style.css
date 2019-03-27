@@ -102,24 +102,18 @@ html,body {
 }
 
 #nav-icon1.open span:nth-child(1) {
-  top: 18px;
-  -webkit-transform: rotate(135deg);
-  -moz-transform: rotate(135deg);
-  -o-transform: rotate(135deg);
-  transform: rotate(135deg);
+	width: 20px;
+	background: #4592a5;
 }
 
 #nav-icon1.open span:nth-child(2) {
-  opacity: 0;
-  left: -60px;
+ 	width: 15px;
+ 	background: #4592a5;
 }
 
 #nav-icon1.open span:nth-child(3) {
-  top: 18px;
-  -webkit-transform: rotate(-135deg);
-  -moz-transform: rotate(-135deg);
-  -o-transform: rotate(-135deg);
-  transform: rotate(-135deg);
+	width: 25px;
+	background: #4592a5;
 }
 nav {
 	width: 100vw;
@@ -3072,7 +3066,7 @@ input[name="r"] {
 	box-shadow: 0 0 2px;
 	border-radius: 2px;
 	font-family: Comfortaa-Light;
-	margin-left: 25px;
+	margin-left: 15px;
 	}
 	.brandsIMG .k1 img{
 		margin-left: 20px;
@@ -3119,7 +3113,7 @@ input[name="r"] {
 	margin-right: 15px;
 	border-radius: 2px;
 	font-family: Comfortaa-Light;
-	margin-left: 25px;
+	margin-left: 15px;
 	}
 	.brandsIMG .k3 img{
 		margin-left: 20px;
