@@ -3045,6 +3045,8 @@ input[name="r"] {
 
 	.container{
 		max-width: 350px;
+		margin: 0;
+		padding: 0;
 	}
 
 	.left1{
@@ -3164,6 +3166,7 @@ input[name="r"] {
 	}
 	.brandsAZ{
 		margin-top: 80px;
+		margin-left: 10px;
 	}
 	.brandsAZ.bgWhite div#text4{
 		margin-left: 2px !important;
@@ -3212,7 +3215,7 @@ input[name="r"] {
 	width: 100%;
 	height: 40px;
 	float: left;
-	margin-left: 15px !important;
+	margin-left: 10px !important;
 }
 .readmore.bgWhite div.left1 {
 	float: left;
