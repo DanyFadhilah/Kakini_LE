@@ -42,6 +42,46 @@
 								</li>
 							</ul>
 						</div>
+						</ul>
+					<div id="nav-icon1">
+				  		<span></span>
+				  		<span></span>
+				 		<span></span>
+					</div>
+					<div class="menu-toggle">
+						<div class="satu"></div>
+						<div class="dua"></div>
+						<div class="tiga"></div>
+					</div>
+				</div>
+				<ul class="menu-hide">
+						<li>
+							<a href="../index.html">Home</a>
+						</li>
+						
+							
+						<li><a href="../sale_men/men.html"><p>MEN</p></a><p class="garis">|</p><a href="../sale_women/women.html"><p>WOMEN</p></a></li>
+						
+						</li>
+						<li><a href="#">Sale</a></li>
+						<li><a href="#">Traditional Clothing</a></li>
+						
+						<li><a href="#"><p>IDN</p></a><p class="garis">|</p><a href="#"><p>ENGLISH</p></a></li>
+								
+						
+						<div class="login">
+						<ul>
+							<li><a href="./register/login.html"><p>Register</p></a><p class="garis1">|</p><a href="./login/register.html"><p class="log">Log In</p></a></li>
+						</ul>
+
+						<li class="search">
+							<input type="search" placeholder="Cari barang">
+						</li>
+					</div>
+				</ul>
+			</div>
+		</nav>
+	</header>
 					</ul>
 				</div>
 			</div>
@@ -195,4 +235,13 @@
 	</div>
 	<div class="clearfix"></div>
 </body>
+<script src="../assets/js/jquery.js"></script>
+<script>
+		$(document).ready(function(){
+		  $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+		    $(this).toggleClass('open');
+		    $('.menu-hide').toggleClass('menu-hide-active');
+		  });
+		});
+	</script>
 </html>

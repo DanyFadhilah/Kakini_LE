@@ -2631,8 +2631,9 @@ input[name="r"] {
 
 	.menu-hide{
 		margin-top: -50px;
+		margin-left: 40px;
 		display: block;
-		width: 100%;
+		width: 80%;
 
 	}
 
@@ -2641,11 +2642,18 @@ input[name="r"] {
 		transition: 1s;
 	}
 
-	
 	.menu-hide li{
 		width: 100%;
+		font-size: 15px;
+		font-weight: 1px;
 	}
-
+	.garis{
+		margin-top: 30px !important;
+	}
+	.log{
+		margin-top: -65px;
+		margin-left: 80px;
+	}
 	.search {
 	height: 50px;
 	width: 200px;
@@ -3245,6 +3253,7 @@ input[name="r"] {
 	}	
 	.navigasi{
 		bottom: 20px;
+		margin-left: -10px;
 	}
 	.atas{
 		margin-top: 250px;
